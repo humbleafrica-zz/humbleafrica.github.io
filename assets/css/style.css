@@ -3,7 +3,7 @@
 /*--------------------------------------------Colors*/
 
 .bg-color-name-title {
-    background-color: #676767;
+    background-color: #F7C503;
 }
 
 .bg-color-three-reasons {
@@ -11,15 +11,15 @@
 }
 
 .ui-menu-color-home {
-    background-color: #e67e22;
+    background-color: #ed0404;
 }
 
 .ui-menu-color-resume {
-    background-color: #9b59b6;
+    background-color: #000011;
 }
 
 .ui-menu-color-contact {
-    background-color: #3498db;
+    background-color: #01b254;
 }
 
 .ui-menu-color-download {
@@ -31,7 +31,7 @@
 }
 
 .bg-color-work-history {
-    background-color: #9b59b6;
+    background-color: #5A1475;
 }
 
 /*--------------------------------------------Special Paddings/Margins/Text*/
@@ -67,6 +67,7 @@ h4 {
     margin-top: 25px;
     margin-bottom: 40px;
 }
+
 /*--------------------------------------------Heading*/
 
 header {
@@ -78,7 +79,7 @@ header {
 }
 
 .logo {
-    background: url("../images/rosie.jpg");
+    background: url("../images/ak.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -144,6 +145,80 @@ header {
     letter-spacing: 2px;
 }
 
+
+/*--------------------------------------------Listen links*/
+
+.listenlinks {
+    list-style: none;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.listenlinks a:visited {
+    text-decoration: none !important;
+    list-style: none;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.listenlinks a:active {
+    text-decoration: none !important;
+}
+
+.aftown {
+    background-color: #FA2D2F;
+}
+
+.listenlinks:hover {
+    background-color: #999;
+    list-style: none;
+}
+
+.amazon {
+    background-color: #0B5D99;
+}
+
+.itunes {
+    background-color: #E46688;
+}
+
+.play {
+    background-color: #FED018;
+}
+
+.spotify {
+    background-color: #1ED760;
+}
+
+.tidal {
+    background-color: #000000;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.container,
+.container-fluid {
+    overflow: auto;
+    padding-bottom: 100px;
+
+}
+
 /*--------------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
@@ -152,10 +227,24 @@ header {
 }
 
 /*--------------------------------------------Footer*/
+
 footer {
     background-color: #525252;
     color: #fafafa;
-    min-height: 120px;
+    /*min-height: 90px;*    margin: 0;
+
+    position: relative;
+    margin-top: -100px;
+    /* negative value of footer height */
+    height: 100px;
+    clear: both;
+    padding-top: 20px;
+}
+
+footer .resume {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 10px;
     margin: 0;
 }
 
@@ -270,6 +359,7 @@ footer .cv-pdf i:hover {
 }
 
 /*--------------------------------------------Work History*/
+
 .timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
