@@ -1,4 +1,10 @@
+
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
 /*--------------------------------------------Colors*/
 
@@ -83,7 +89,18 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    min-height: 421px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.logo1 {
+    background: url("../images/ak.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 361px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -145,6 +162,71 @@ header {
     letter-spacing: 2px;
 }
 
+/*--------------------------------------------map*/
+
+#map {
+        height: 500px
+      }
+
+/*--------------------------------------------album arts*/
+
+#akan img {
+    border: 1px solid red;
+    height: 25em;
+    width: 25em;
+    border-radius: 3px;
+
+}
+
+
+#onipa img {
+    border: 1px solid gold;
+    height: 12em;
+    width: 12em;
+    border-radius: 3px;
+
+}
+
+
+#flowno img {
+    border: 1px solid blue;
+    height: 12em;
+    width: 12em;
+    border-radius: 3px;
+
+}
+
+#abusua img {
+    border: 1px solid pink;
+    height: 12em;
+    width: 12em;
+    border-radius: 3px;
+
+}
+
+#maj img {
+    border: 1px solid grey;
+    height: 12em;
+    width: 12em;
+    border-radius: 3px;
+
+}
+
+#vote img {
+    border: 1px solid grey;
+    height: 13.5em;
+    width: 13.5em;
+    border-radius: 3px;
+
+}
+
+#vote img {
+    border: 1px solid grey;
+    height: 13.5em;
+    width: 13.5em;
+    border-radius: 3px;
+
+}
 
 /*--------------------------------------------Listen links*/
 
@@ -202,10 +284,12 @@ header {
     background-color: #000000;
 }
 
-* {
-    margin: 0px;
-    padding: 0px;
+.youtube {
+    background-color: #FF0000;
+
 }
+
+
 
 html,
 body {
@@ -215,8 +299,8 @@ body {
 .container,
 .container-fluid {
     overflow: auto;
-    padding-bottom: 100px;
-
+    padding-bottom: 0px;
+    min-height: 45%
 }
 
 /*--------------------------------------------Hover.css*/
@@ -236,22 +320,32 @@ footer {
     position: relative;
     margin-top: -100px;
     /* negative value of footer height */
-    height: 100px;
+    min-height: 90px;
     clear: both;
-    padding-top: 20px;
+    padding-top: 5px;
+}
+
+footer a {
+    color: #999999;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #999999;
+    text-decoration: none;
 }
 
 footer .resume {
     background-color: #525252;
     color: #fafafa;
-    min-height: 10px;
+    min-height: 110px;
     margin: 0;
 }
 
 footer .cv-pdf i {
     color: #fafafa;
     text-align: center;
-    font-size: 18px;
+    font-size: 10px;
     padding-left: 5px;
 }
 
@@ -261,6 +355,11 @@ footer .cv-pdf i:hover {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+}
+
+.copy {
+    text-align: center;
+    font-size: 18px;
 }
 
 .social-links {
