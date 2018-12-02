@@ -25,7 +25,7 @@
         Audio clips
     Also, they are in the process of creating a social media presence and would like to add links to their Facebook, Twitter and YouTube pages.
     
-    In this project brief I have chosen to create my own scenario based on the scenario provided. My project will focus on an up and coming artist 
+    In this project I have chosen to create my own scenario based on the scenario provided. My project will focus on an up and coming artist 
     I will build a static (front-end only) website for the artist.
     
     The artist has been around for about 5 years and has experience of performing live at numerous events in Ghana.
@@ -46,9 +46,7 @@
         
         https://github.com/Code-Institute-Solutions/UserCentricFrontendDevelopment-Resume/tree/master/18-providing_a_cv_for_download
         
-    
-    In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-    
+        
     FEATURES
     
     A standard menu header for all pages derived from an earlier design but modified to suit the needs in this project
@@ -67,28 +65,55 @@
             * Quotes of reviews from external parties
         
         - Contact
-            *
+            * Example of things the artist would like to be contacted for
+            * A form with for contactind the artist
+            * a button to send the message
+            
+        - Listen To Tracks (listen)
+            * 7 buttons to access artists .
+            
+                - Aftown
+                - Amazon
+                - iTunes
+                - Play Music
+                - Spotify
+                - Tidal
+                - Youtube
+            
+        Are all places fans of the artist can stream or purchase music they like
         
-    Feature 1 - allows users X to achieve Y, by having them fill out Z
-    ...
+        
+    TECHNOLOGY USED
+    
+    The technologies used in this project are HTML5, CSS, JavaScript and Bootstrap.
+        
+        I could have uses JQuery however there were existing pieces of work done by other that works and suited the nature of my project.
+        
+        HTML was use for the structuring of the pages
+        Bootstrap was use to ensure that the page appear a certain way on mobiles and another on tablets, desktops and laptops
+        Javascript was used mainly for showing the mapping on the home page
+        CSS was used to beautify the page and make the structure stand out with the different colours.
+    
+    I used the following libraries || link to libraries
+    
+    bootstrap || https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css
+    fontawesome || https://use.fontawesome.com/releases/v5.5.0/css/all.css
+    css libraries || https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css
+    
+    
+    https://developers.google.com/maps
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-Features Left to Implement
-
-    Another feature idea
-
-Technologies Used
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-    JQuery
-        The project uses JQuery to simplify DOM manipulation.
-
-Testing
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+    
+    TESTING
+    
+    Mobile - I have accessed the site on my mobile as well as asked others in my household to access it on their mobiles and give me feedback. No errors were encounted.
+    
+    Tablet - I have accessed the site on my ipad with no issues recognised.
+    
+    Desktop - I have accessed the site on my desktop. No errors were encounted. I also tested using the element inspector and showed the various
+    pages in the virtual devices build into my browser.
+    
+    Javascript
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
