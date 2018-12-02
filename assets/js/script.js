@@ -38,6 +38,7 @@ function initMap() {
   var markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
 
 }
+
 var locations = [
   { lat: 5.563669, lng: -0.198411 },
   { lat: 5.556405, lng: -0.171232 },

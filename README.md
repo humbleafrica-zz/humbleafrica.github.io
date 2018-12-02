@@ -4,12 +4,16 @@
     '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
      `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
     ----------------------------------------------------------------- 
-
-
-
-
-In this project, you’ll be building a frontend-only website using the technologies that you have learned throughout User Centric Frontend Development. You can either choose to use the example brief below or choose to use your idea for the website.
-CREATE A WEBSITE FOR A BAND
+   
+   
+    User Centric Frontend Development Milestone Project (UCFDMP)
+    
+    Hi there! Welcome to my code institute UCFDMP
+    
+    Project Requirements
+    
+    In this project, you’ll be building a frontend-only website using the technologies that you have learned throughout User Centric Frontend Development. You can either choose to use the example brief below or choose to use your idea for the website.
+    CREATE A WEBSITE FOR A BAND
 
     Build a static (front-end only) website for a band. As a starting point, you may want to use wireframes, as we did in the UX lesson (you can use Balsamiq or any other tool, including just pen and paper). You can use either your assets or the assets within the following GitHub repo.
     The band is a 1960’s rock band and have around 50 years experience of performing live at numerous events around the world. You have been given the following requirements after interviews with the client’s representatives:
@@ -20,21 +24,13 @@ CREATE A WEBSITE FOR A BAND
         A video clip
         Audio clips
     Also, they are in the process of creating a social media presence and would like to add links to their Facebook, Twitter and YouTube pages.
-
-
-
-
-
-
- User Centric Frontend Development Milestone Project (UCFDMP)
- 
- Hi there! Welcome to my code institute UCFDMP
- 
- In this project brief I have chosen to create my own scenario based on the scenario provided. My project will focus on an up and coming artist 
- I will build a static (front-end only) website for the artist. 
-
-The artist has been around for about 5 years and has experience of performing live at numerous events in Ghana. 
-I have taken the scenario of being given the following requirements for the project. 
+    
+    In this project brief I have chosen to create my own scenario based on the scenario provided. My project will focus on an up and coming artist 
+    I will build a static (front-end only) website for the artist.
+    
+    The artist has been around for about 5 years and has experience of performing live at numerous events in Ghana.
+    
+    I have taken the scenario of being given the following requirements for the project. 
     - His primary target audiences are his fans and potential fans who wish to use the site to see and hear clips from is tours around Ghana, 
     as well as new material as it becomes available.
     - He would like to use the site to showcase his music and publicise his availability to perform at events such as weddings and Christmas parties.
@@ -44,17 +40,35 @@ I have taken the scenario of being given the following requirements for the proj
         - Video and Audio Clips
         - Also, he has social media presence and would like to add links to their Facebook, Twitter and YouTube pages.
         
-
-I intend to use no wireframes but a configuration already existing in the code institute git hub libraries under 
-UserCentricFrontendDevelopment-Resume/18-providing_a_cv_for_download/ see the link to the project below
-
-https://github.com/Code-Institute-Solutions/UserCentricFrontendDevelopment-Resume/tree/master/18-providing_a_cv_for_download
-
-----------------------------
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-Existing Features
-
+    I intend to use no wireframes but a configuration already existing in the code institute git hub libraries under:
+    
+        - UserCentricFrontendDevelopment-Resume/18-providing_a_cv_for_download/ see the link to the project below
+        
+        https://github.com/Code-Institute-Solutions/UserCentricFrontendDevelopment-Resume/tree/master/18-providing_a_cv_for_download
+        
+    
+    In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+    
+    FEATURES
+    
+    A standard menu header for all pages derived from an earlier design but modified to suit the needs in this project
+    A standard footer featuring four social media icons that redirects users to the artist's relevant social media pages.
+    A standard image of teh artist on all pages ( slightly enlarged on the resume page to seal the gap between the timeline and image).    
+    
+        - Home Page (index)
+            * four navigation header menu
+            * map of artist location
+            * artist contact details
+            * introduction to the artist (who he is, what he does and why he does it)
+            
+        - Dicography (resume)
+            * Artist's timeline
+            * Artist's Albums and most notable public projects such as tracks featured and freestyles.
+            * Quotes of reviews from external parties
+        
+        - Contact
+            *
+        
     Feature 1 - allows users X to achieve Y, by having them fill out Z
     ...
 
