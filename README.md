@@ -132,13 +132,19 @@
     MEDIA
     
 
-    The photos used in this site were obtained from:
+    The photos and music material used in this site were obtained from:
     
     https://www.google.com
+    https://soundcloud.com/akanmusic
+    
     
     
     ACKNOWLEDGEMENTS
 
     I received inspiration for this project from 
     
-    UserCentricFrontendDevelopment CV resume example 
+    UserCentricFrontendDevelopment CV resume example
+    
+    Sincere thanks to Kwabena Appiah who allowed me to use his material and social media sites for this project
+    
+    
