@@ -54,22 +54,25 @@
     A standard image of teh artist on all pages ( slightly enlarged on the resume page to seal the gap between the timeline and image).    
     
         - Home Page (index)
-            * four navigation header menu
-            * map of artist location
+            * four navigation header menu - to navigate between pages
+            * map of artist location 
             * artist contact details
             * introduction to the artist (who he is, what he does and why he does it)
             
         - Dicography (resume)
+            * four navigation header menu - to navigate between pages
             * Artist's timeline
             * Artist's Albums and most notable public projects such as tracks featured and freestyles.
             * Quotes of reviews from external parties
         
         - Contact
+            * four navigation header menu - to navigate between pages
             * Example of things the artist would like to be contacted for
             * A form with for contactind the artist
             * a button to send the message
             
         - Listen To Tracks (listen)
+            * four navigation header menu - to navigate between pages
             * 7 buttons to access artists .
             
                 - Aftown
