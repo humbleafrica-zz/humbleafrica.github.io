@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Tahoma;
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+/* OWN STYLING */
+#map {
+    min-height: 500px;
+    width: 99%;
+    margin:.5em;
+    border: 1px solid red;
+    border-radius: 3px;
+
+}
+
+
+.btn{
+    min-width: 10em !important;
+    text-align: center;
+    padding: .2em;
+    font-weight: bold;
+    border:1px solid #000;
+}
+
+
+footer{
+    text-align: center;
+    margin-top: 25px;
+    color: #000;
+}
+/* COPIED STYLING */
+
+#infowindow-content .title {
+    font-weight: bold;
+}
+
+#infowindow-content {
+    display: none;
+}
+
+#map #infowindow-content {
+    display: inline;
+}
+
+.pac-card {
+    width: 98.5%;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+#pac-container {
+    padding-bottom: 12px;
+    margin-right: 12px;
+}
+
+.pac-controls {
+    display: inline-block;
+    padding: 5px 11px;
+}
+
+.pac-controls label {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+#pac-input {
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 12px;
+    padding: 3px;
+    text-overflow: ellipsis;
+    min-width: 3em;
+    border-radius: 3px;
+}
+
+#pac-input:focus {
+    border-color: #4d90fe;
+}

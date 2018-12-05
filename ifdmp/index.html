@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ultimate Tourist Tool</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/main.css">
+    <script type="text/javascript" src="assets/script.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Search Destinations, Attractions, Accommodation and More ! Right Here</h1>
+    </div>
+    <div id="pac-container">
+
+        <input id="pac-input" type="text" placeholder="Enter a location">
+        <div id="type-selector" class="pac-controls">
+            <input type="radio" name="type" id="changetype-all" checked="checked">
+            <label for="changetype-all">All</label>
+
+            <input type="radio" name="type" id="changetype-establishment">
+            <label for="changetype-establishment">Establishments</label>
+
+            <input type="radio" name="type" id="changetype-address">
+            <label for="changetype-address">Addresses</label>
+
+            <input type="radio" name="type" id="changetype-geocode">
+            <label for="changetype-geocode">Geocodes</label>
+        </div>
+        <div id="strict-bounds-selector" class="pac-controls">
+            <input type="checkbox" id="use-strict-bounds" value="">
+            <label for="use-strict-bounds">Strict Bounds</label>
+        </div>
+        <div id="reset" class="pac-controls">
+            <input class="btn" type="button" id="resetbtn" value="Reset" onclick="reset();">
+            <!--input class="btn" type="button" id="newloc" value="Search This Location" onclick="thisloc();"-->
+        </div>
+
+    </div>
+
+    <div id="map">
+        <p id="location"></p>
+    </div>
+
+    <div id="infowindow-content">
+        <img src="" width="16" height="16" id="place-icon">
+        <span id="place-name" class="title"></span><br>
+        <span id="place-address"></span>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDiY25skuNFMKYh6DzS409lPN8Kz6tlgPA&libraries=places&callback=initMap" async defer></script>
+    <footer>
+        &copy Humbleafrica 2018
+    </footer>
+</body>
+
+</html>
