@@ -128,7 +128,7 @@
     
     The Webpage is hosted at:
     
-    https://preview.c9users.io/humbleafrika/user_centric_milestone_project/index.html
+    https://humbleafrica.github.io/
     
     
     
